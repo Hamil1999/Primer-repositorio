@@ -1,0 +1,48 @@
+body{
+    background: rgb(168, 168, 90);
+
+}
+    form{
+    border:1px solid black;
+    width: 25%;
+    margin:20px;
+    padding: 20px;
+    font-weight: bold;
+    background: rgb(31, 52, 156);
+    box-shadow: 5px 5px 5px gray;
+      
+}
+.login{
+    border: 1px solid black;
+    padding: 17px;
+    width: 300px;
+    position: absolute;
+    left: 38%;
+}
+input:focus, textarea:focus{
+    border: 2px solid yellow;
+    box-shadow: 1px 1px 1px gray;
+    
+}
+input[type="submit"]:hover{
+    background: rgb(1, 171, 250);
+    box-shadow:2px 2px 2px black;
+    cursor:pointer;
+    border: 1px solid rgb(1, 171, 250);
+}
+input[type="reset"]:hover{
+    background: rgb(1, 171, 250);
+    box-shadow:2px 2px 2px black;
+    cursor:pointer;
+    border: 1px solid rgb(1, 171, 250);
+    
+}
+h1{
+    text-align: center;
+    color: rgb(156, 19, 65);
+    text-decoration: underline;
+}
+label{
+    color: beige;
+
+}
